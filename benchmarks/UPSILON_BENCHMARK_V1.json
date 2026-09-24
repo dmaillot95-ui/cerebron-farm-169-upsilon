@@ -1,0 +1,30 @@
+{
+  "schema": "UPSILON_BENCHMARK_V1",
+  "status": "FROZEN_TEMPLATE_NO_RESULTS",
+  "role_id": "PARETO_UTILITY_ANALYST",
+  "domains": [
+    "pareto_front",
+    "multiobjective_tradeoff",
+    "dominance",
+    "utility_surface",
+    "constraint_tradeoff",
+    "decision_frontier"
+  ],
+  "m6_rule": "M6_NEVER_IN_TRAIN",
+  "modes": [
+    "BASE_MODEL_ALONE",
+    "UPSILON_PRETRAIN_SCAFFOLD",
+    "UPSILON_TRAINED",
+    "UPSILON_PLUS_MINIMAL_COALITION"
+  ],
+  "metrics": [
+    "role_accuracy",
+    "critical_error_rate",
+    "calibration",
+    "transfer",
+    "regression",
+    "latency",
+    "provenance_completeness"
+  ],
+  "result_status": "NO_EXECUTED_BASELINE_YET"
+}
